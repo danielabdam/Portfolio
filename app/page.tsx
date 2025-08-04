@@ -198,7 +198,7 @@ export default function Portfolio() {
       {/* Hero/About Section */}
       <section id={t.sections.about} className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="flex-1 space-y-6">
               <div className="space-y-4">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">{t.heroTitle}</h1>
@@ -429,7 +429,7 @@ export default function Portfolio() {
                 <Linkedin size={28} />
               </a>
               <a
-                href="https://drive.google.com/file/d/1vhwR5c4XXCgPt4HQCtQHlfBWr3Uvm-wh/view" 
+                href="https://drive.google.com/file/d/1tpu0gim6a5M0RfxeMS4JoDsGxHB0gt9K/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
