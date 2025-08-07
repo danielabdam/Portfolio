@@ -8,7 +8,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Daniel Abdam - Full Stack Developer",
   description: "Professional portfolio showcasing full-stack development projects and skills",
-    generator: 'v0.dev'
+      icons: {
+    icon: [
+      { url: "/favicon.ico" }, // Icone de nevegador 
+    ],
+    // apple: [{ url: "/apple-touch-icon.png?v=2", sizes: "180x180", type: "image/png" }],
+  },
 }
 
 export default function RootLayout({
